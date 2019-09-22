@@ -1,0 +1,23 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="lib.create_driver.os_name" />
+          <option value="lib.create_driver.Firefox" />
+          <option value="lib.create_driver.Ie" />
+          <option value="lib.ui.login_page.WebDriverWaitiverWait" />
+          <option value="lib.utils.create_driver" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
